@@ -43,7 +43,8 @@ public class PairingActivity extends BaseActivity<PairingActivityViewModel> {
 
         activityPairingBinding.btnConnect.setOnClickListener(view -> {
             CaretakerRequest caretakerRequest = new CaretakerRequest(activityPairingBinding.editTextNumber.getText().toString(),
-                    "token kara do!", Settings.Secure.ANDROID_ID);
+                    "token kara do!", Settings.Secure.getString(getApplicationContext().getContentResolver(),
+                    Settings.Secure.ANDROID_ID));
             pairingActivityViewModel.addCareTakerRequest(caretakerRequest);
             pairingActivityViewModel.addCaretaker().observe(this, this::consumeResponseCareTaker);
         });
