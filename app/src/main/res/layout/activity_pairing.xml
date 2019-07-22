@@ -10,9 +10,92 @@
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintTop_toTopOf="parent"
         tools:context=".ui.pairing.PairingActivity">
+
+        <ImageView
+            android:id="@+id/imageSuccess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/logo_smile"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <requestFocus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txtView_pairWithDevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/arial_font"
+            android:text="@string/pair_with_device"
+            android:textColor="@color/blackColor"
+            android:textSize="27sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageSuccess" />
+
+        <TextView
+            android:id="@+id/txtView_enterNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/opensens_light"
+            android:text="@string/enter_sim_number"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtView_pairWithDevice" />
+
+        <EditText
+            android:id="@+id/editText_number"
+            android:layout_width="411dp"
+            android:layout_height="0dp"
+            android:background="@drawable/edittext_cursor_drawable"
+            android:ems="10"
+            android:fontFamily="@string/arial_font"
+            android:hint="@string/number_format_hint"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:textColor="@color/whiteColor"
+            android:textCursorDrawable="@null"
+            android:textSize="17sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtView_enterNumber" />
+
+        <TextView
+            android:id="@+id/txtView_validationResponse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/opensens_light"
+            android:textColor="@color/pairing_failed"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText_number" />
+
+        <Button
+            android:id="@+id/btnConnect"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:background="@drawable/ovelbutton"
+            android:fontFamily="@string/arial_font"
+            android:text="@string/connect"
+            android:textColor="@color/whiteColor"
+            android:textSize="17sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtView_validationResponse" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

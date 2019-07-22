@@ -1,6 +1,49 @@
 <resources>
     <string name="app_name">MVVMDataBinding</string>
 
+    <string name="error_network_timeout">Some Error</string>
+    <string name="app_title">E mom</string>
+    <string name="app_subtitle">protect your child from sexual abuse</string>
+    <string name="arial_font">ArialRoundedMTBold</string>
+    <string name="pair_with_device">pair with device</string>
+    <string name="enter_sim_number">Enter Sim number of device</string>
+    <string name="opensens_light">OpenSans-Light</string>
+    <string name="number_format_hint">111-111-12345</string>
+    <string name="connect">CONNECT</string>
+
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="press_on_map">Press Long on Map to Create Boundary Points</string>
+    <string name="try_again">try again</string>
+    <string name="device_paired">Device successfully paired</string>
+    <string name="congratulation">Congratulations</string>
+    <string name="start">START</string>
+    <string name="please_wait">please wait...</string>
+    <string name="take_time">it will take 5 to 10 minutes</string>
+
+
+    <string name="text_locate_child">L&#160;o&#160;c&#160;a&#160;t&#160;e &#160;&#160;C&#160;h&#160;i&#160;l&#160;d</string>
+    <string name="text_set_parameter">S&#160;e&#160;t &#160;&#160;P&#160;e&#160;r&#160;i&#160;m&#160;e&#160;t&#160;e&#160;r</string>
+    <string name="text_on">on</string>
+    <string name="text_off">off</string>
+    <string name="text_emom">E mom</string>
+    <string name="text_emom_breach">E MOM BREACH!</string>
+    <string name="text_emom_panic">E MOM PANIC!</string>
+    <string name="text_ok">OK</string>
+    <string name="message_set_parameter">Please first set perimeter</string>
+    <string name="text_perimeter">P&#160;E&#160;R&#160;I&#160;M&#160;E&#160;T&#160;E&#160;R</string>
+    <string name="title_activity_locate_child_map">Locate Child</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="text_emom_breach_detailed">Your child\'s E mom perimeter has been breached</string>
+    <string name="text_emom_panic_detailed">Your child has pressed the E mom panic button</string>
+    <string name="perimeter">PERIMETER</string>
+    <string name="text_recreateParameter">RE-CREATE PERIMETER</string>
+    <string name="warning_exitPanicMode">Do you want to exit panic mode</string>
+    <string name="txtWarning_exitBreachMode">Do you want to exit breach mode</string>
+    <string name="warning_recreatePerimeter">Do you want to discard existing perimeter</string>
+    <string name="warning_recreatePerimeterRepeat">Do you want to discard existing perimeter</string>
+    <string name="text_tamper">T&#160;A&#160;M&#160;P&#160;E&#160;R</string>
+    <string name="locate">LOCATE</string>
+    <string name="ok">OK</string>
+    <string name="txtWarning_exitTamperMode">Do you want to exit tamper mode</string>
+
 </resources>

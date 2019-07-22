@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="splashBackground">#2d3047</color>
+    <color name="whiteColor">#ffffff</color>
+    <color name="greenColor">#00b050</color>
+    <color name="blackColor">#2d3047</color>
+    <color name="grayColor">#7c90a0</color>
+    <color name="grayColor_background">#7c90a0</color>
+    <color name="uiBlock">#2d3047</color>
+    <color name="indicatorScreen_color">#2d3047</color>
+    <color name="pairing_failed">#e25252</color>
+
+
+    <color name="PrimaryGreenColor">#00B050</color>
+    <color name="DkGrayColor">#2D3047</color>
+    <color name="LTRedColor">#E25252</color>
+    <color name="LTGrayColor">#7C90A0</color>
+    <color name="White">#FFFFFF</color>
+    <color name="off">#6add7d</color>
 </resources>
